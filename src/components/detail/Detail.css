@@ -1,0 +1,96 @@
+.detail {
+  flex: 1;
+}
+
+.detail__user {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #dddddd35;
+
+}
+
+.detail__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.detail__info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+.detail__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail__icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(17, 25, 40, 0.3);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.detail__photos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail__photoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail__downloadIcon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(17, 25, 40, 0.3);
+  border-radius: 35%;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.detail__photoDetail img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.detail__photoName {
+  font-size: 14px;
+  color: lightgray;
+  font-weight: 300;
+}
+
+.detail__blockButton {
+  padding: 15px;
+  background-color: rgba(230, 74, 105, 0.553);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.detail__blockButton:hover {
+  background-color: rgba(220, 20, 60, 0.796);
+}
+
+.detail__logoutButton {
+  padding: 10px;
+  background-color: #1a73e8;
+}
